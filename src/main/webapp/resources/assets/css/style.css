@@ -1,0 +1,86 @@
+.view-book{
+    margin: 0 auto;
+    position: relative;
+    height: 76vh;
+}
+
+.book-img{
+    width: 25vw;
+    min-width: 600px;
+    position: absolute;
+}
+
+#index .view-book{
+    width: 25vw;
+    min-width: 600px;
+}
+#bestyear .view-book{
+    width: 50vw;
+    min-width: 1200px;
+}
+
+#bestyear .book-img{
+    width: 1200px;
+    min-width: 1200px;
+}
+
+.contents{
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+}
+
+.left-page{
+    width: 600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.right-page{
+    width: 600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.item-img-div{
+    display: flex;
+    justify-content: center;
+    height: 280px;
+}
+.item-img{
+    height: 100%;
+    box-shadow: 5px 10px 15px rgb(177, 177, 177);
+}
+
+.item-year{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pre-btn{
+    width: 60px;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.next-btn{
+    cursor: pointer;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    align-self: flex-end;
+    padding: 3px;
+}
